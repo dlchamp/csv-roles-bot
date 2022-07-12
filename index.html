@@ -8,9 +8,6 @@
       <link rel="icon" type="image/x-icon" href="/static/favicon.png">
       <meta name="description" content="">
       <meta name="keywords" content="">
-      <!-- Font Awesome if you need it
-         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-         -->
       <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
       <!--Replace with your tailwind.css once created-->
       <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
@@ -49,7 +46,7 @@
                   <p class="leading-normal text-orange-600 text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">Save time with the CSV,Roles!</p>
                   <div class="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
                      <div class="rounded-md shadow">
-                        <a href="https://discord.com/api/oauth2/authorize?client_id=975530567955267589&permissions=268512320&scope=bot" style='background-color: rgb(255,134,0);' class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg font-medium rounded-md text-white md:py-4 md:text-xl md:px-10">Invite to Server</a>
+                        <a href="https://discord.com/api/oauth2/authorize?client_id=975530567955267589&permissions=268512256&scope=bot%20applications.commands" style='background-color: rgb(255,134,0);' class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg font-medium rounded-md text-white md:py-4 md:text-xl md:px-10">Invite to Server</a>
                      </div>
                   </div>
                </div>
@@ -71,7 +68,6 @@
                            <li class="py-2 ml-5 font-bold">Manage Roles - <span class='italic text-sm font-light'>adding roles to members</span></li>
                            <li class="py-2 ml-5 font-bold">View Channel/Read Messages - <span class='italic text-sm font-light'>seeing and parsing your messages and attachments</span></li>
                            <li class="py-2 ml-5 font-bold">Send Message/Manage Messages - <span class='italic text-sm font-light'>sending progress and completion messages/delete original message and attachment</span></li>
-                           <li class="py-2 ml-5 font-bold">Add Reactions - <span class='italic text-sm font-light'>adding reaction to final message to allow command user to delete completion/error messages</span></li>
                         </ul>
                      </ul>
                   </div>
@@ -81,8 +77,8 @@
                   <div class='leading-tight slide-in-bottom-h1'>
                      <ul class='pt-5'>
                         <li class="py-2">Migrate your data to a CSV file</li>
-                        <li class="py-2">Make sure your member name/ids are the second column</li>
-                        <li class="py-2">Make sure your csv has a heading row as this is skipped automatically.</li>
+                        <li class="py-2">Make sure your member name/ids are the <strong>FIRST</strong> column</li>
+                        <li class="py-2">Make sure your csv has a header row.</li>
                         <li class="py-2">Head into a Discord channel the bot can see and read messages in</li>
                         <li class="py-2">Copy the role ID for the role you wish to assign your members</li>
                         <li class="py-2">Paste it into the message box and attach your members.csv file</li>
@@ -97,8 +93,5 @@
             </div>
          </div>
       </div>
-      <!-- jQuery if you need it
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-         -->
    </body>
 </html>
